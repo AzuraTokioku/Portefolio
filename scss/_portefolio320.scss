@@ -1,0 +1,165 @@
+@media screen and (min-width:320px) and (max-width:392px){
+    body{
+        width: 67%;
+    }
+    .header{
+        width: 100%;
+        height: 77px;
+        background-color: black;
+        text-align: center;
+    }
+    .header__img{
+        width: 55px;
+        height: 55px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    .header__title{
+        font-family: 'Architects Daughter', cursive;
+        color: white;
+        display: inline;
+        font-size: 18px;
+        position: relative;
+        left: 36px;
+    }
+    .header__title2{
+        font-family: 'Architects Daughter', cursive;
+        color: white;
+        display: inline;
+        position: relative;
+        top: 20px;
+        right: 4rem;
+        font-size: 18px;
+    }
+    .container{
+        width: 100%;
+        height: 1200px;
+        text-align: center;
+        margin-top: -22px;
+        display: initial;
+    }
+    .container__title{
+        font-family: 'Boogaloo', cursive;
+        padding: 38px;
+        border-bottom: 1px solid #C02626;
+    }
+    .img__dev,.img__color{
+        width: 15rem;
+    }
+    .container__block{
+        border-bottom: 1px solid #C02626;
+        padding: 0px 0px 15px;
+    }
+    .block__title{
+        font-family: 'Architects Daughter', cursive;
+        font-size: 18px;
+        padding: 18px;
+    }
+    h3{
+        font-family: 'Boogaloo', cursive;
+        margin: 20px 0px;
+    }
+    ul{
+        list-style: square;
+    }
+    li{
+        text-align: start;
+        margin: 20px 0px;
+        font-family: 'Englebert', sans-serif;
+        font-size: 12px;
+    }
+    .blogwakawaka{
+        width: 91%;
+        height: 14rem;
+        border: 1px solid black;
+    }
+    .link__realisation{
+        color: black;
+        font-family: 'Englebert', sans-serif;
+    }
+    .container__list{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        padding: 18px 0px 0px;
+    }
+    .container__code,.container__color,.lien__contact,.header__tablet1 , .header__tablet2,.header__tablet3,.header__tablet4{
+        display: none;
+    }
+    .bio{
+        font-family: 'Englebert', sans-serif;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .container__logo{
+        width: 75px;
+        height: 75px;
+        border-radius: 50%;
+    }
+    .link__logo{
+        color: black;
+        margin: 0px 20px;
+    }
+    .container__listLogo{
+        display: flex;
+        list-style: none;
+        justify-content: space-evenly;
+        height: 1rem;
+    }
+    .footer{
+        width: 100%;
+        height: 26rem;
+        background-color: black;
+        text-align: center;
+    }
+    .footer__formulaire{
+        padding-top: 30px;
+    }
+    .formulaire__nom{
+        font-family: 'Englebert', sans-serif;
+        font-size: 16px;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 30%;
+    }
+    .formulaire__prénom{
+        font-family: 'Englebert', sans-serif;
+        font-size: 16px;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        border-radius: 30%;
+    }
+    .formulaire__mail{
+        font-family: 'Englebert', sans-serif;
+        font-size: 16px;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 275px;
+        border-radius: 30%;
+    }
+    .formulaire__message{
+        font-family: 'Englebert', sans-serif;
+        font-size: 16px;
+        border: none;
+        text-align: center;
+        margin-bottom: 10px;
+        width: 275px;
+        border-radius: 10%;
+    }
+    .formulaire__sumbit{
+        font-family: 'Englebert', sans-serif;
+        font-size: 16px;
+        border: none;
+        width: 10rem;
+        border-radius: 30%;
+        background-color: #C02626;
+        color: white;
+    }
+}
